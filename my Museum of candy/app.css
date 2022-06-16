@@ -45,7 +45,11 @@ section p{
 
 #mainNavbar .nav-link{
     color: white;
-    
+}
+
+
+#mainNavbar .nav-link:hover{
+    color: #ea1c2c;
 }
 
 .nav-item .dropdown-menu {
