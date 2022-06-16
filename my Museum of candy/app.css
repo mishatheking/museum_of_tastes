@@ -1,0 +1,75 @@
+body {
+    background-color: #f5d9d5;
+    /* font-family: 'Courier New', Courier,sans-serif, monospace; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+section h2{
+    font-weight: 300;
+    font-size: 2rem;
+    color: #ea1c2c; 
+}
+
+section p{
+    /* font-weight: 100;
+    font-size: 1.2rem;
+    color: white;  */
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c; 
+    font-size: 2rem;
+    font-weight: 400; 
+}
+
+#mainNavbar .nav-link{
+    color: white;
+    
+}
+
+.nav-item .dropdown-menu {
+    border: 0px;
+}
+
+input.form-control {
+    background-color: mistyrose;
+}
+
+
+#headingGroup span {
+    color: #ea1c2c; 
+    
+}
+
+.navbar.scrolled {
+    background: #f5d9d5;
+    transition: background 500ms;
+}
+
+@media (max-width: 1300px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
